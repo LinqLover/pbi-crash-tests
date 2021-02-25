@@ -3,7 +3,7 @@ Load &amp; crash tests for Power BI reports (`.pbix`/`.pbit` files).
 
 ## Description
 
-These tests were originally developed in the context of a data analysis project [1, 2] which included the making of about a dozen visualization reports using the Business Intelligence software [Power BI](https://powerbi.com/) (PBI).
+These tests were originally developed in the context of [Barberini Analytics](https://github.com/Museum-Barberini-gGmbH/Barberini-Analytics), a data analysis project which included the making of about a dozen visualization reports using the Business Intelligence software [Power BI](https://powerbi.com/) (PBI).
 These reports are stored as PBIX or PBIT files in the project repository.
 To assure overall stability and quickly identify regressions in any report (for instance, caused by changes to the database schema or the unavailability of external access points), tests were written that open every single report file in Power BI Desktop and make sure that it does not show any error message or crashes during loading it.
 
@@ -22,9 +22,6 @@ Due to the system requirements of PBI Desktop, this requires a (virtual) Windows
   However, it requires an organization account, can hardly be integrated into any VCS workflow and also might involve privacy issues.
 
 **Keywords:** Power BI, Power BI Desktop, Power BI CI testing, Power BI acceptance tests, Power BI UI tests, Power BI crash tests.
-
-[1] Project description (German): [PDF hosted at Museum Barberini](https://www.museum-barberini.com/site/assets/files/1080779/fg_naumann_bp_barberini_2019-20.pdf)  
-[2] Press release (German): [PDF hosted at Hasso Plattner Institute](https://hpi.de/fileadmin/user_upload/hpi/veranstaltungen/2020/Bachelorpodium_2020/Pressemitteilung_BP_2020_Bachelorprojekte/Pressemitteilung_BP2020_Pressemitteilung_FN1_V2.pdf)  
 
 ## Usage
 
